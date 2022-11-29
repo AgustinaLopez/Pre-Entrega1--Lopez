@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Prata&display=swap");
+body {
+  background-color: #F2F6F2; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+* {
+    padding: 0;
+    margin: 0; 
+}  
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-style {
+  background-color: #5E6D4B;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  opacity: .8; }
+  .nav-style img {
+    width: 100px; }
+  .nav-style ul {
+    display: flex;
+    justify-content: space-between; }
+    .nav-style ul li {
+      list-style: none; }
+      .nav-style ul li a {
+        font-family: "Comfortaa", cursive;
+        color: #F2F6F2;
+        font-size: 1em;
+        text-decoration: none; }
+        .nav-style ul li a:hover {
+          color: white;
+          font-weight: 600;
+          background-size: 100% 2px; 
+        }
+
+h1, h2, h3 {
+    font-family: "Prata", serif;
+    color: #5E6D4B;
+    font-weight: 400;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+    font-size: 2.8em;
+    text-align: center; 
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
+h2 {
+    font-size: 1.5em;
+    text-align: center; 
+}
+  
+h3, h4 {
+    font-size: 1em; 
 }
